@@ -5,4 +5,4 @@
 - 所有提交的日志信息<br/>>git log 
 -- git log 提交后无法退出git，输入法切换英文按Qt<br/>
 - 删除文件<br/>>rm <文件名> -r --cached <br/> 删除缓存区里的文件<br/>>和 git add <文件名> 一起使用
-- 重命名文件<br/>>git mv <原文件名> <新文件名> <br/> 和git add<文件名>一起使用
+- 重命名文件<br/>>git mv <原文件名> <新文件名> <br/> >和git add<文件名>一起使用
