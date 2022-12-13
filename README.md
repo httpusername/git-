@@ -25,4 +25,5 @@
 - 删除分支<br/>> git branch -d <分支名称>
 - 强制删除分支<br/>> git branch -D <分支名称><br/>> 该分支处于git commit -m '提交状态'
 - 合并分支<br/>> git merge <分支名称>
-
+- 解决代码冲突<br/>> 手动排除. git add . -> git commit 
+- 解决代码冲突2，保留主线代码<br/>>git merge -abort 
