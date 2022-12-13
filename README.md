@@ -12,3 +12,5 @@
 - >git log --pretty=oneline <文件名> , 获取到id，获取具体信息  git show \<id\>
 - >git log -p <文件名> 获取文件具体修改信息
 - 操作失误，回到最后一次提交的状态<br/>> git checkout -- <文件名>
+- 1.操作失误，回到最后一次提交的状态 2.文件加入暂存区当中<br/>> 用git reset HEAD <文件名>取消
+> git add <文件名> | git reset HEAD <文件名> | git checkout -p <文件名>
