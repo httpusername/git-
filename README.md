@@ -13,3 +13,15 @@
 - 1.操作失误，回到最后一次提交的状态 2.文件加入暂存区当中<br/>> 用git reset HEAD <文件名>取消 <br/>> git add <文件名> | git reset HEAD <文件名> | git checkout -p <文件名>
 - 回到到上个或者之前的版本<br/>> git reset --hard HEAD^<br/> ^回到上个版本(一个^表示一个版本)<br/> git log --hard 版本ID (git log 获取版本id，在通过id获取到需要的版本)
 - 将<strong>指定文件</strong>回退到某个版本<br/>> git checkout <版本id> -- <文件名><br/>> git log 获取版本id
+- 创建最近一次提交的标签<br/>> git tag v1.0 
+- 创建指定版本的标签<br/> > git log 获取版本id， git tag  版本标签  \<id\>
+- 删除标签<br/>> git tag -d 
+- 远程推送标签<br/>> git push origin v1.0
+- 远程删除标签<br/>> git push -d origin <标签版本>
+- 创建分支<br/>> git branch <分支名称>
+- 创建分支并进入<br/>> git checkout -b <分支名称>
+- 查看所有分支<br/>> git branch
+- 切换分支<br/>> git checkout <分支名称>
+- 删除分支<br/>> git branch -d <分支名称>
+- 强制删除分支<br/>> git branch -D <分支名称><br/>> 该分支处于git commit -m '提交状态'
+
