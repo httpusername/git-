@@ -6,3 +6,9 @@
 -- git log 提交后无法退出git，输入法切换英文按Qt<br/>
 - 删除文件<br/>>rm <文件名> -r --cached <br/> 删除缓存区里的文件<br/>>和 git add <文件名> 一起使用
 - 重命名文件<br/>>git mv <原文件名> <新文件名> <br/> >和git add<文件名>一起使用
+- 移动文件到文件夹<br/>>git mv <原文件名> <文件夹路径>
+- 移动文件到文件夹并且重命名<br/>>git mv <原文件名> <文件夹路径><新文件名>
+> 查看文件修改信息
+- >git log --pretty=oneline <文件名> , 获取到id，获取具体信息  git show \<id\>
+- >git log -p <文件名> 获取文件具体修改信息
+- 操作失误，回到最后一次提交的状态<br/>> git checkout -- <文件名>
