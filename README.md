@@ -29,3 +29,5 @@
 - 解决代码冲突2，保留主线代码<br/>>git merge --abort 
 - 查看版本路线<br/>> git log --online --graph
 - 远程拉取所有分支<br/> git fetch
+
+- 谷歌访问github插件<br/> > Octotree<br/> > Enhanced GitHub<br/> > GitZip for GitHub
